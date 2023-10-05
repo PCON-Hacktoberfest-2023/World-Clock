@@ -33,6 +33,10 @@
 
 
             </select>
+            <select class="form-control date-format-select" onchange="setDateFormat()" id="selectDateFormat">
+                <option value="MM/DD/YYYY">MM/DD/YYYY</option>
+                <option value="DD/MM/YYYY">DD/MM/YYYY</option></select>
+
             <div id="analog">
                 <div id="circlepoint"></div>
                 <div id="hhand" class="hand"></div>
@@ -41,7 +45,8 @@
             </div>
         </div>
         <div class="footer " id="footer">
-            <button class="btn btn-secondary">Light/Dark mode</button>
+            <!-- <button class="btn btn-secondary">Light/Dark mode</button> -->
+            <button id="lightDarkModeBtn" class="btn btn-secondary">Light/Dark mode</button>
         </div>
 
 
@@ -58,3 +63,49 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+    
+
+
+
+

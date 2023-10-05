@@ -71,3 +71,15 @@ function setUTC() {
 }
 
 setInterval(setUTC, 1000);
+
+
+
+function setDateFormat() {
+	const selectedDateFormat = document.getElementById("selectDateFormat").value;
+   
+ }
+
+
+document.getElementById("lightDarkModeBtn").addEventListener("click", function () {
+	document.body.classList.toggle("dark-mode");
+});
