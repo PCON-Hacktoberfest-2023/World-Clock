@@ -161,6 +161,8 @@ a {
     .footer {
         position: relative;
         margin-top: 10vh;
+        
+       
     }
     
  }
@@ -174,4 +176,5 @@ a {
 .dark-mode {
     background-color: #333;
     color: #fff;
+  
 }
