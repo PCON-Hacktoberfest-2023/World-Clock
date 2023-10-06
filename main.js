@@ -80,6 +80,16 @@ function setDateFormat() {
  }
 
 
-document.getElementById("lightDarkModeBtn").addEventListener("click", function () {
-	document.body.classList.toggle("dark-mode");
-});
+
+
+
+
+
+
+const toggleDarkMode = () => {
+    document.body.classList.toggle('dark-mode');
+}
+
+
+const darkModeBtn = document.getElementById('lightDarkModeBtn');
+darkModeBtn.addEventListener('click', toggleDarkMode);
