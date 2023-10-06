@@ -12,7 +12,31 @@
     <title>World Clock</title>
 </head>
 
+
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+               
+            </ul>
+        </div>
+    </nav>
+   
+   
     <div class="container container-block mtop">
         <div class="row time mx-auto " id="header">
             <h3 id="head">World Clock</h1>
@@ -33,6 +57,10 @@
 
 
             </select>
+            <select class="form-control date-format-select" onchange="setDateFormat()" id="selectDateFormat">
+                <option value="MM/DD/YYYY">MM/DD/YYYY</option>
+                <option value="DD/MM/YYYY">DD/MM/YYYY</option></select>
+
             <div id="analog">
                 <div id="circlepoint"></div>
                 <div id="hhand" class="hand"></div>
@@ -41,7 +69,8 @@
             </div>
         </div>
         <div class="footer " id="footer">
-            <button class="btn btn-secondary">Light/Dark mode</button>
+            <!-- <button class="btn btn-secondary">Light/Dark mode</button> -->
+            <button id="lightDarkModeBtn" class="btn btn-secondary">Light/Dark mode</button>
         </div>
 
 
@@ -58,3 +87,49 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+    
+
+
+
+

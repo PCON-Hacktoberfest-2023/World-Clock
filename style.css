@@ -161,7 +161,50 @@ a {
     .footer {
         position: relative;
         margin-top: 10vh;
+        
+       
     }
     
  }
+
+ .date-format-select {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+} 
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+  
+}
+
+
+
+
+.dark-mode .time {
+    color: #777; 
+}
+
+.dark-mode #analog {
+    background-color: #333; 
+    opacity: 0.7; 
+}
+
+.dark-mode #circlepoint {
+    background-color: #555; 
+}
+
+
+.dark-mode #shand {
+    background-color: #ff4d80; 
+}
+
+.dark-mode #mhand {
+    background-color: #7d03e9; 
+}
+
+.dark-mode #hhand {
+    background-color: #e600ff;
+}
 
