@@ -56,6 +56,8 @@ function setUTC() {
 	];
 
 	mhand.style.transform = `rotate(${6 * min + sec / 10}deg)`;
+	hhand.style.transform = `rotate(${30 * (hour%12) + min*0.5 +sec*(0.5/60)}deg)`;
+	shand.style.transform = `rotate(${ 6*sec }deg)`;
 
 	document.getElementById("hr").innerHTML = hour;
 	document.getElementById("min").innerHTML = min;
